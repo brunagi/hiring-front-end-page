@@ -34,7 +34,7 @@ Dar um fork no projeto, clonar o repositório em sua máquina local e criar um b
 
 ## Requisitos Técnicos para a entrega do teste
 
-•	Pode utilizar qualquer library de CSS e CSS-in-JS. (recomendamos Material UI, Bootstrap ou Styled Components. Pode fazer com CSS clássico também)
+•	Utilizar SASS
 
 •	O projeto deve ter uma documentação em readme ensinando a: 
 1. instalar o projeto na máquina (engines, versão de node, qual gerenciador de pacote usar)
