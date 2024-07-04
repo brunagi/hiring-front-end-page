@@ -1,17 +1,32 @@
-//import Image from "next/image";
-//import { Inter } from "next/font/google";
-//const inter = Inter({ subsets: ["latin"] });
 
 
 function Header(){
   return(
-    <header>
-      <ul>
+    <header className='text-2xl'>
+      <ul className='flex justify-between items-center bg-lime-500 h-[100px] text-zinc-50' >
         <li>Logo</li>
+        <li className="loja">AlugaFácil</li>
         <li>Modelos</li>
-        <li>Reservas</li>
+        <li>Favoritos</li>
+        <li>Cadastre-se</li>
       </ul>
     </header>
+
+  )
+}
+
+function Main(){
+  return(
+    <main>
+
+        <h1>Listagem de Carros</h1>
+      <ul>
+        <li>Marca 1</li>
+        <li>Marca 2</li>
+        <li>Marca 3</li>
+      </ul>
+      
+    </main>
 
   )
 }
@@ -19,19 +34,13 @@ function Header(){
 
 export default function Home() {
   return (
-    <main>
+    <div>
 
       <Header/>
+      <Main/>
 
-      <div> <h1>Listagem de Carros</h1>
-      <ul>
-        <li>Marca 1</li>
-        <li>Marca 2</li>
-        <li>Marca 3</li>
-      </ul>
 
-      </div>
 
-    </main>
+    </div>
   );
 }
